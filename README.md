@@ -1,6 +1,6 @@
 # Medium Clone - A Laravel 12 Full-Stack Application
 
-This is a full-stack clone of the popular blogging platform Medium, built with Laravel 12, Tailwind CSS, and SQLite.
+This is a full-stack clone of the popular blogging platform Medium. Built with Laravel 12, Tailwind CSS, and SQLite.
 
 ## Features
 
