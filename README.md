@@ -22,36 +22,51 @@ Follow these instructions to get a copy of the project up and running on your lo
 *   Composer
 *   Node.js & NPM
 
-### Installation
-
 1.  **Clone the repository**
+    ```sh
     git clone https://github.com/AbdelhafidRahab/medium-clone.git
     cd medium-clone
+    ```
 
 2.  **Install PHP Dependencies**
+    ```sh
     composer install
+    ```
 
 3.  **Install NPM Dependencies**
+    ```sh
     npm install
+    ```
 
 4.  **Create your environment file**
+    ```sh
     cp .env.example .env
+    ```
 
 5.  **Generate an application key**
+    ```sh
     php artisan key:generate
+    ```
 
 6.  **Set up the database**
     This project uses SQLite. Simply create the database file:
+    ```sh
     touch database/database.sqlite
+    ```
 
 7.  **Run the database migrations**
+    ```sh
     php artisan migrate
+    ```
 
 8.  **Run the development servers**
     In one terminal, run the Vite server:
+    ```sh
     npm run dev
-    
+    ```
     In a second terminal, run the Laravel server:
+    ```sh
     php artisan serve
+    ```
 
 Now visit `http://127.0.0.1:8000` in your browser.
