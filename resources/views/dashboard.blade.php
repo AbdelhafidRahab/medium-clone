@@ -41,6 +41,8 @@
                         </div>
                     </div>
                 @endforeach
+                {{-- we can provide our blade file for pagination inside links function or just use the default, or publish the default and modify it --}}
+                {{$posts->links()}}
             </div>
         </div>
     </div>
