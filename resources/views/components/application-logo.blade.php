@@ -1,1 +1,1 @@
-<img src="Medium-Logo.png" class="w-32">
+<img src="/Medium-Logo.png" class="w-32">

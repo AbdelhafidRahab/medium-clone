@@ -1,6 +1,6 @@
 <ul class="flex flex-wrap justify-center text-sm font-medium text-center text-gray-600">
     <li class="me-2">
-        <a href="#" class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg active" aria-current="page">All</a>
+        <a href="#" class="inline-block px-4 py-2 text-white bg-gray-800 rounded-lg active" aria-current="page">All</a>
     </li>
     @forelse($categories as $category)
         <li class="me-2">
